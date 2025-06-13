@@ -40,7 +40,7 @@ Starting at $z_{0}=0$, the loop terminates when $|z_{n} \geq 2|$, allowing one t
 
 ### 1-D Collisions
 
-An elastic collision conserves momentum and conserved energy. In terms of momentum $p$, this means that
+An elastic collision conserves momentum and conserved energy. In terms of momentum, this means that
 
 $m_{1}v_{1, i} + m_{2}v_{2, i} = m_{1}v_{1, f} + m_{2}v_{2, f}$
 
@@ -52,9 +52,11 @@ $m$ is mass
 
 $v$ is velocity
 
+$p$ is momentum
+
 $i$ and $f$ denote sub-scripts "initial" and "final", respectively
 
-Suppose a block of mass $m_{1}$ is placed onto a frictionless surface and is initially not moving ($v_{1} = 0$). A wall is placed to the left of $m_{1}$, and a block of mass $m_{2}$ is placed to right of $m_{1}$; $m_{2}$ is initially at velocity $v_{2}$ towards the left ($v_{2} < 0$).  If the mass ratio $\frac{m_{2}}{m_{1}} = 100^{n}$ (where $n \in \mathbb{Z}^{+}$), then $n$ is the total number of collisions - this includes collisions between $m_{1}$ with $m_{2}$ and collisions between $m_{1}$ with the wall; furthermore, the estimated value will be proportional to $n$. For simplicity, set $m_{1} = 1$. The loop terminates at the last collision.
+Suppose a block of mass $m_{1}$ is placed onto a frictionless surface and is initially not moving ($v_{1} = 0$). A wall is placed to the left of $m_{1}$, and a block of mass $m_{2}$ is placed to right of $m_{1}$; $m_{2}$ is initially moving to the left - towards $m_{1}$ - with velocity $v_{2}$ ($v_{2} < 0$).  If the mass ratio $\frac{m_{2}}{m_{1}} = 100^{n}$ (where $n \in \mathbb{Z}^{+}$), then $n$ is the total number of collisions - this includes collisions between $m_{1}$ with $m_{2}$ and collisions between $m_{1}$ with the wall; furthermore, the precision of the estimated value will be proportional to $n$. For simplicity, set $m_{1} = 1$. The loop terminates at the last collision.
 
 #### Input
 
@@ -86,7 +88,7 @@ It follows that the ratio of the inner circle to the outer square is given by
 
 $\frac{A_{circle}}{A_{square}} = \frac{\pi r^{2}}{l^{2}} = \frac{\pi}{4}$
 
-Now suppose that $N$ points (where $N >> 1$) are uniformally distributed at pseudo-random within the bounds of this square, $M$ points (where $M < N$) are counted inside the circle.
+Now suppose that $N$ points (where $N >> 1$) are uniformally distributed at pseudo-random within the bounds of this square, and $M$ points (where $M < N$) are counted inside the circle.
 
 $\implies \frac{\pi}{4} \approx \frac{M}{N}$
 
