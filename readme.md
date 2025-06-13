@@ -92,7 +92,7 @@ $\implies \frac{\pi}{4} \approx \frac{M}{N}$
 
 $\implies \pi \approx \frac{4M}{N}$
 
-One can create an ensemble by repeating this procedure $k$ times to collect statistics (such as mean and median) of the estimated value; the accuracy of the estimation should increase as $k \rightarrow \infty$.
+One can create an ensemble by repeating this procedure over $k$ trial runs to collect statistics (such as mean and median) of the estimated value; the accuracy of the estimation should increase as $k \rightarrow \infty$.
 
 #### Input
 
