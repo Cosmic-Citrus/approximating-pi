@@ -10,16 +10,17 @@ The ratio of the circumference of a circle to its diameter is given by the const
 
 The Mandelbrot can be computed using the equation
 
-    $z_{n+1} = z_{n}^2 + c$
+$z_{n+1} = z_{n}^2 + c$
 
-        where 
-            $c = -\frac{3}{4} + i\epsilon$
+where
 
-            $\epsilon = \left(\frac{1}{10}\right)^{n}$ 
+$c = -\frac{3}{4} + i\epsilon$
 
-            $i \equiv \sqrt{-1}$
+$\epsilon = \left(\frac{1}{10}\right)^{n}$ 
 
-            $n \equiv $ `number_digits`  
+$i \equiv \sqrt{-1}$
+
+$n \equiv$ `number_digits`  
 
 Starting at $z_{0}=0$, the loop terminates when $|z_{n} \geq 2|$, allowing one to obtain an estimate $\pi \approx n \epsilon$.  
 
@@ -30,6 +31,7 @@ Starting at $z_{0}=0$, the loop terminates when $|z_{n} \geq 2|$, allowing one t
 #### Output
 
     `value_estimate = 3.1416000000`
+
     `relative_error_as_percentage = 0.0002338435`
 
 #### References
@@ -38,11 +40,19 @@ Starting at $z_{0}=0$, the loop terminates when $|z_{n} \geq 2|$, allowing one t
 
 ### 1-D Collisions
 
-An elastic collision conserves momentum and conserved energy. In terms of momentum, this means that
+An elastic collision conserves momentum and conserved energy. In terms of momentum $p$, this means that
 
-    $m_{1}v_{1, i} + m_{2}v_{2, i} = m_{1}v_{1, f} + m_{2}v_{2, f}$
+$m_{1}v_{1, i} + m_{2}v_{2, i} = m_{1}v_{1, f} + m_{2}v_{2, f}$
 
-    $\implies p_{1, i} + p_{2, i} = p_{1, f} + p_{2, f}$
+$\implies p_{1, i} + p_{2, i} = p_{1, f} + p_{2, f}$
+
+where
+
+$m$ is mass
+
+$v$ is velocity
+
+$i$ and $f$ denote sub-scripts "initial" and "final", respectively
 
 Suppose a block of mass $m_{1}$ is placed onto a frictionless surface and is initially not moving ($v_{1} = 0$). A wall is placed to the left of $m_{1}$, and a block of mass $m_{2}$ is placed to right of $m_{1}$; $m_{2}$ is initially at velocity $v_{2}$ towards the left ($v_{2} < 0$).  If the mass ratio $\frac{m_{2}}{m_{1}} = 100^{n}$ (where $n \in \mathbb{Z}^{+}$), then $n$ is the total number of collisions - this includes collisions between $m_{1}$ with $m_{2}$ and collisions between either block with the wall); furthermore, the estimated value will be proportional to $n$. For simplicity, set $m_{1} = 1$. The loop terminates at the last collision.
 
@@ -61,25 +71,25 @@ Suppose a block of mass $m_{1}$ is placed onto a frictionless surface and is ini
 
 ### Monte Carlo Method
 
-Suppose there is a circle of radius $r$ inscribed inside of a square of side-length $l$ (such that $l = 2r$. 
+Suppose there is a circle of radius $r$ inscribed inside of a square of side-length $l$ (such that $l = 2r$). 
 
 The area of the square is given by
 
-    $A_{square} = l^{2}$
+$A_{square} = l^{2}$
 
 The area of the circle is given by
 
-    $A_{circle} = \pi r^{2}$
+$A_{circle} = \pi r^{2}$
 
 For simplicity, set $r=1$. It follows that the ratio of the inner circle to the outer square is given by
 
-    $\frac{A_{circle}}{A_{square}} = \frac{\pi r^{2}}{l^{2}} = \frac{\pi}{4}$
+$\frac{A_{circle}}{A_{square}} = \frac{\pi r^{2}}{l^{2}} = \frac{\pi}{4}$
 
 Now suppose that $N$ points (where $N >> 1$) are uniformally distributed at pseudo-random within the bounds of this square, $M$ points (where $M < N$) are counted inside the circle.
 
-    $\implies \frac{\pi}{4} \approx \frac{M}{N}$
+$\implies \frac{\pi}{4} \approx \frac{M}{N}$
 
-    $\implies \pi \approx \frac{4M}{N}$
+$\implies \pi \approx \frac{4M}{N}$
 
 One can create an ensemble by repeating this procedure $k$ times to collect statistics (such as mean and median) of the estimated value; the accuracy of the estimation should increase as $k \rightarrow \infty$.
 
