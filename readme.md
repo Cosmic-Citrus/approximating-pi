@@ -112,7 +112,7 @@ One can create an ensemble by repeating this procedure over $k$ trial runs to co
 
 #### References
 
-* [animation](https://commons.wikimedia.org/wiki/File:Pi_monte_carlo_all.gif) by with accompanying Wikipedia [article](https://en.wikipedia.org/wiki/Monte_Carlo_method)
+* [animation](https://commons.wikimedia.org/wiki/File:Pi_monte_carlo_all.gif) and accompanying Wikipedia [article](https://en.wikipedia.org/wiki/Monte_Carlo_method)
 
 ## Getting Started
 
