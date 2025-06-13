@@ -72,7 +72,7 @@ Suppose a block of mass $m_{1}$ is placed onto a frictionless surface and is ini
 
 ### Monte Carlo Method
 
-Suppose there is a circle of radius $r$ inscribed inside of a square of side-length $l$ (such that $l = 2r$). 
+Suppose there is a circle of radius $r$ inscribed inside of a square of side-length $l$ (such that $l = 2r$). For simplicity, set $r=1$. 
 
 The area of the square is given by
 
@@ -82,7 +82,7 @@ The area of the circle is given by
 
 $A_{circle} = \pi r^{2}$
 
-For simplicity, set $r=1$. It follows that the ratio of the inner circle to the outer square is given by
+It follows that the ratio of the inner circle to the outer square is given by
 
 $\frac{A_{circle}}{A_{square}} = \frac{\pi r^{2}}{l^{2}} = \frac{\pi}{4}$
 
