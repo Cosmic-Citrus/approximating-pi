@@ -8,7 +8,7 @@ The ratio of the circumference of a circle to its diameter is given by the const
 
 ### Mandelbrot Set
 
-The Mandelbrot can be computed using the equation
+The Mandelbrot set can be computed using the equation
 
 $z_{n+1} = z_{n}^2 + c$
 
