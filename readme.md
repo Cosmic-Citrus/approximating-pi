@@ -40,7 +40,7 @@ Starting at $z_{0}=0$, the loop terminates when $|z_{n} \geq 2|$, allowing one t
 
 ### 1-D Collisions
 
-An elastic collision conserves momentum and conserved energy. In terms of momentum, this means that
+An elastic collision conserves momentum and conserves energy. In terms of momentum, this means that
 
 $m_{1}v_{1, i} + m_{2}v_{2, i} = m_{1}v_{1, f} + m_{2}v_{2, f}$
 
