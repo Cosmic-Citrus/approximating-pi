@@ -54,7 +54,7 @@ $v$ is velocity
 
 $i$ and $f$ denote sub-scripts "initial" and "final", respectively
 
-Suppose a block of mass $m_{1}$ is placed onto a frictionless surface and is initially not moving ($v_{1} = 0$). A wall is placed to the left of $m_{1}$, and a block of mass $m_{2}$ is placed to right of $m_{1}$; $m_{2}$ is initially at velocity $v_{2}$ towards the left ($v_{2} < 0$).  If the mass ratio $\frac{m_{2}}{m_{1}} = 100^{n}$ (where $n \in \mathbb{Z}^{+}$), then $n$ is the total number of collisions - this includes collisions between $m_{1}$ with $m_{2}$ and collisions between either block with the wall); furthermore, the estimated value will be proportional to $n$. For simplicity, set $m_{1} = 1$. The loop terminates at the last collision.
+Suppose a block of mass $m_{1}$ is placed onto a frictionless surface and is initially not moving ($v_{1} = 0$). A wall is placed to the left of $m_{1}$, and a block of mass $m_{2}$ is placed to right of $m_{1}$; $m_{2}$ is initially at velocity $v_{2}$ towards the left ($v_{2} < 0$).  If the mass ratio $\frac{m_{2}}{m_{1}} = 100^{n}$ (where $n \in \mathbb{Z}^{+}$), then $n$ is the total number of collisions - this includes collisions between $m_{1}$ with $m_{2}$ and collisions between $m_{1}$ with the wall; furthermore, the estimated value will be proportional to $n$. For simplicity, set $m_{1} = 1$. The loop terminates at the last collision.
 
 #### Input
 
@@ -63,6 +63,7 @@ Suppose a block of mass $m_{1}$ is placed onto a frictionless surface and is ini
 #### Output
 
     `value_estimate = 3.1415000000`
+
     `relative_error_as_percentage = 0.0029492554`
 
 #### References
