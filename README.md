@@ -10,7 +10,7 @@ This repo contains 4 different methods to approximate:
 
        Suppose a circle of radius $r$ is inscribed inside of a square of side-length $l$. This means $2r = l$. The ratio of the areas of the circle to the square is given by $\frac{\pi r^2}{l^2} = \frac{\pi r^2}{(2r)^2} = \frac{\pi}{4}$. Using a uniform random distribution of $N$ points, the number of points inside the circle (given by $N_{circle}$) can be compared to the total number of points inside the square $N$ such that $\pi \approx 4 \cdot \frac{N_{circle}}{N_{square}}$.
 
-![monte-carlo-tutorial](monte_carlo_method/approximation_method.gif)
+![monte-carlo-tutorial](monte_carlo_method/output/approximation_method.gif)
 
 (2)    Archimedes Method
 
@@ -22,15 +22,13 @@ This repo contains 4 different methods to approximate:
 
     Consider a $1-$D system of two masses $m_1 = 1$ kg and $\frac{m_2}{m_1} = 10^{n-1}$ such that where $v_1 = 0 \frac{m}{s}$, $v_2 < 0 \frac{m}{s}$, and collisions are perfectely elastic. The momentum of the $i-$th mass is given by $p_i = m_i \cdot v_i$. Elastic collisions allow for conservation of momentum - given by $p_1 + p_2 \equiv k_1$ where $k_1$ is constant - and conservation of energy - given by $\frac{p_1^2}{2m_1} + \frac{p_2^2}{2m_2} = k_2$ where $k_2$ is constant. The number of collisions will then be an under-approximation of $\pi \approx \lfloor \frac{number \space collisions}{10^{n-1}} \rfloor$. The phase-space $p_2$ vs $p_1$ traces out an ellipse, but one can transform this ellipse into a circle by using the scaling $p_1^\prime = \sqrt{m_1} v_1$ and $p_2^\prime = \sqrt{m_2} v_2$, for which the total energy $E^\prime = \frac{(p_1^\prime)^2}{2m_1} + \frac{(p_2^\prime)^2}{2m_2} = 2r$ where $E^\prime$ is constant.
 
-![elastic-collisions-phase-space](elastic_collisions_1D_method
-/output/phase_space_v1.gif)
+![elastic-collisions-phase-space](elastic_collisions_1D_method/output/phase_space_v1.gif)
 
 (4)    Mandelbrot Set Method
 
     Consider a complex number $z = x + iy$ such that $f(z) = z^2 + c$ for some constant $c$. If we consider recursive map to get roots $z_{n+1} = z_n^2 + c$ where $z_0 = 1$, then there are a subset of values that constrain $z_{n+1}$ from escaping beyond a cut-off (usually $2$) to infinity. At particular points, the number of iterations can be used to approximate $\pi$.
 
-![mandelbrot-zoom](mandelbrot_method
-/output/mandelbrot_set_v2.gif)
+![mandelbrot-zoom](mandelbrot_method/output/mandelbrot_set_v2.gif)
 
 
 
