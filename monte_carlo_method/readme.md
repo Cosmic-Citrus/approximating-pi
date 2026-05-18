@@ -10,7 +10,7 @@ Suppose a circle of radius $r$ is inscribed inside of a square of side-length $l
 
 ![monte-carlo-tutorial](/monte_carlo_method/output/approximation_method.gif)
 
-![monte-carlo-ensemble-accuracy](/output/ensemble_approximation_accuracy.png)
+![monte-carlo-ensemble-accuracy](/monte_carlo_method/output/ensemble_approximation_accuracy.png)
 
 
 Sources:
