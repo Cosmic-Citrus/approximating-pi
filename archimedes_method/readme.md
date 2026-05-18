@@ -7,9 +7,9 @@
 Archimedes used regular $N-$sided polygons to estimate the minimum and maximum perimeters that bound the circumference of a circle. For each $N$, a polygon is inscribed inside the circle (corresponding to lower bound) and another polygon is placed on the outside of the circle (corresponding to upper bound). Each of the starting hexagons have $6$ congruent equilateral triangles. From the center of the circle, the angle bisector for each of these triangles will split each of these triangles into $2$ congruent half-triangles, such that the polygon of sides $2N$ can be inferred.
 
 
-![srchimedes-tutorial](archimedes_method/output/approximation_method.gif)
+![srchimedes-tutorial](/archimedes_method/output/approximation_method.gif)
 
-![archimedes-accuracy](archimedes_method/output/approximation_accuracy.png)
+![archimedes-accuracy](/archimedes_method/output/approximation_accuracy.png)
 
 
 Sources:
