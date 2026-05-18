@@ -41,6 +41,7 @@ Sources:
 ## To-Do
 
 - Vary random seed of Monte Carlo Estimator
+- Add number of trial runs to legend
 
 ## License
 
