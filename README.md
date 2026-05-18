@@ -6,13 +6,13 @@ The purpose of this code is to explore different methods to approximate the math
 
 This repo contains 4 different methods to approximate:
 
-(1)    Monte Carlo Method
+(1)    Archimedes Method 
 
-(2)    Archimedes Method
+(2)    Elastic Collisions (1-D) Method
 
-(3)    Elastic Collisions (1-D) Method
+(3)    Mandelbrot Set Method
 
-(4)    Mandelbrot Set Method
+(4)    Monte Carlo Method
 
 ## License
 
