@@ -47,7 +47,7 @@ Sources:
 
 (4)    Mandelbrot Set Method
 
-Consider a complex number $z = x + iy$ such that $f(z) = z^2 + c$ for some constant $c$. If we consider recursive map to get roots $z_{n+1} = z_n^2 + c$ where $z_0 = 1$, then there are a subset of values that constrain $z_{n+1}$ from escaping beyond a cut-off (usually $2$) to infinity. At particular points, the number of iterations can be used to approximate $\pi$.
+Consider a complex number $z = x + iy$ such that $f(z) = z^2 + c$ for some constant $c$. If we consider recursive map to get roots $z_{n+1} = z_n^2 + c$ where $z_0 = 1$, then there are a subset of values that constrain $z_{n+1}$ from escaping beyond a cut-off (usually $2$) to infinity. At particular points, the number of iterations can be used to approximate $\pi$. Using $c=-\frac{3}{4} + (\frac{1}{10})^n$ gives the approximation $\pi \approx (\frac{1}{10})^n \cdot number\space iterations$ to $n$ digits of accuracy.
 
 ![mandelbrot-zoom](mandelbrot_method/output/mandelbrot_set_v2.gif)
 
