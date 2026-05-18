@@ -6,7 +6,9 @@
 
 Suppose a circle of radius $r$ is inscribed inside of a square of side-length $l$. This means $2r = l$. The ratio of the areas of the circle to the square is given by $\frac{\pi r^2}{l^2} = \frac{\pi r^2}{(2r)^2} = \frac{\pi}{4}$. Using a uniform random distribution of $N$ points, the number of points inside the circle (given by $N_{circle}$) can be compared to the total number of points inside the square $N$ such that $\pi \approx 4 \cdot \frac{N_{circle}}{N_{square}}$.
 
-![monte-carlo-tutorial](monte_carlo_method/output/approximation_method.gif)
+
+
+![monte-carlo-tutorial](/monte_carlo_method/output/approximation_method.gif)
 
 ![monte-carlo-ensemble-accuracy](/output/ensemble_approximation_accuracy.png)
 
